@@ -127,6 +127,8 @@
     background-color: #041080;
     flex-grow: 1;
     height: auto;
+    padding: 24px 15px 20px 70px;
+
   }
   .scheme {
     display: flex;
