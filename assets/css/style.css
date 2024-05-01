@@ -1,0 +1,25 @@
+@import "normalize.css";
+@import "../fonts/fonts.css";
+@import "./blocks/base/general.css";
+@import "./blocks/container/container.css";
+@import "./blocks/header/header.css";
+@import "./blocks/main/main.css";
+@import "./blocks/info/info.css";
+@import "./blocks/manufactures/manufactures.css";
+@import "./blocks/working/working.css";
+@import "./blocks/faq/faq.css";
+@import "./blocks/footer/footer.css";
+@import "./blocks/logo/logo.css";
+@import "./blocks/menu/menu.css";
+@import "./blocks/call-us/call-us.css";
+@import "./blocks/specificity/specificity.css";
+@import "./blocks/features/features.css";
+@import "./blocks/specific-list/specific-list.css";
+@import "./blocks/gallery/gallery.css";
+@import "./blocks/scheme/scheme.css";
+@import "./blocks/accordion/accordion.css";
+@import "./blocks/button/button.css";
+@import "./blocks/form/form.css";
+
+
+

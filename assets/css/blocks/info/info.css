@@ -1,0 +1,67 @@
+.info {
+  padding: 200px 0;
+  background-image: url(../../../images/info-vector.png);
+  background-size: cover;
+}
+.info__container {
+  display: flex;
+  gap: 130px;
+}
+.info__title {
+  font-size: 69.23px;
+  line-height: 99.8%;
+}
+.info__title-span {
+  color: #969af7;
+  font-family: FuturaFuturisC;
+  font-size: 56.23px;
+  font-weight: 700;
+  line-height: 99.8%;
+}
+.info__subtitle {
+  color: #fff;
+  font-size: 61.226px;
+  line-height: 122.8%;
+  text-transform: uppercase;
+  text-align: left;
+}
+.info__text {
+  color: #969af7;
+  font-size: 23px;
+  line-height: 129.8%;
+}
+
+@media screen and (max-width: 1280px) {
+  .info__container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .info {
+    padding-top: 250px;
+  }
+  .info__title {
+    font-size: 40px;
+  }
+  .info__title-span {
+    font-size: 40px;
+  }
+  .info__subtitle {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .info__text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .info__container {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .info {
+    padding-top: 300px;
+  }
+}

@@ -1,0 +1,65 @@
+body {
+  color: #333;
+  font-family: 'FuturaBookC', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  background-color: #f2f2f4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  border: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: FuturaFuturisC;
+  margin: 0;
+}
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+h2 {
+  color: #111;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 99.8%;
+  text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.2s;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+p {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+}

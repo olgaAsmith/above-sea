@@ -1,0 +1,15 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: #FFF;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 122.8%;
+}
+.menu__item {
+  text-wrap: nowrap;
+}
+
+

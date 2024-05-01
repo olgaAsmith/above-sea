@@ -1,0 +1,25 @@
+.specificity {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #FFF;
+  font-size: 22px;
+  line-height: 129.8%;
+  border-radius: 10px;
+  background: linear-gradient(90deg, rgba(150, 154, 247, 0.3) 10%, rgba(150, 154, 247, 0.3) 50%, #07086C);
+  list-style-type: none;
+  padding: 25px 0 28px 31px;
+}
+.specificity__item:before {
+  content: url('../../../images/check.svg');
+  display: inline-block;
+  width: 14px;
+  height: 11px;
+  margin-right: 14px;
+}
+
+@media screen and (max-width: 480px) {
+  .specificity {
+    font-size: 14px;
+  }
+}

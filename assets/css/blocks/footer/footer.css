@@ -1,0 +1,23 @@
+.footer {
+  background-color: #333;
+  padding: 72px 0;
+}
+.footer__logo {
+  width: 179px;
+  height: 34px;
+}
+.footer__menu {
+  font-family: FuturaBookC;
+}
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+@media screen and (max-width: 1280px) {
+  .footer__container {
+    flex-direction: column;
+  }
+}

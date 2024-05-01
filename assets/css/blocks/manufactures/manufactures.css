@@ -1,0 +1,28 @@
+.manufactures {
+  padding: 150px 0;
+  background-image: url(../../../images/manufactures_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.manufactures__title {
+  color: #FFF;
+  line-height: 99.8%;
+  margin-bottom: 57px;
+}
+.manufactures__gallery {
+  max-width: 1280px;
+  margin: auto;
+  margin-bottom: 42px;
+}
+.manufactures__descrption {
+  color: #FFF;
+  line-height: 31px
+}
+
+@media screen and (max-width: 480px) {
+  .manufactures__title {
+    margin-bottom: 77px;
+  }
+}
+
+

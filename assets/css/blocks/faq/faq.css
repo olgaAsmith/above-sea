@@ -1,0 +1,12 @@
+.faq {
+  background-image: url(../../../images/faq-bg.png);
+  background-size: cover;
+  padding: 175px 0 95px;
+  margin-top: -50px;
+}
+.faq__title {
+  color: #FFF;
+  margin-bottom: 40px;
+}
+
+

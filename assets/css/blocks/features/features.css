@@ -1,0 +1,16 @@
+.features {
+  padding: 85px 0;
+}
+.features__title {
+  margin-bottom: 25px;
+}
+.features__description {
+  color: #030303;
+  font-size: 22px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 42px;
+}
+.features__container {
+  max-width: 1192px;
+}
