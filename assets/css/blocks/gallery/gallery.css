@@ -3,12 +3,10 @@
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
-
 .gallery__list {
   display: flex;
   gap: 16px;
 }
-
 .gallery__item {
   display: flex;
   align-items: center;
