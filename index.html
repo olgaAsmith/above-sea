@@ -213,7 +213,7 @@
         <div class="container">
           <h2 class="manufactures__title">Наши производители</h2>
           <div class="manufactures__gallery">
-            <div class="gallery">
+            <div id="slider" class="gallery">
               <ul class="gallery__list">
                 <li class="gallery__item">
                   <img
@@ -250,10 +250,51 @@
                     class="gallery__image"
                   />
                 </li>
+                <li class="gallery__item">
+                  <img
+                    src="./assets/images/partner2.svg"
+                    alt="Partner2"
+                    class="gallery__image"
+                  />
+                </li>
+                <li class="gallery__item">
+                  <img
+                    src="./assets/images/partner3.svg"
+                    alt="Partner3"
+                    class="gallery__image"
+                  />
+                </li>
+                <li class="gallery__item">
+                  <img
+                    src="./assets/images/partner1.svg"
+                    alt="Partner1"
+                    class="gallery__image"
+                  />
+                </li>
+                <li class="gallery__item">
+                  <img
+                    src="./assets/images/partner2.svg"
+                    alt="Partner2"
+                    class="gallery__image"
+                  />
+                </li>
+                <li class="gallery__item">
+                  <img
+                    src="./assets/images/partner4.svg"
+                    alt="Partner4"
+                    class="gallery__image"
+                  />
+                </li>
               </ul>
-              <button class="gallery__turn gallery__turn--left"></button>
-              <button class="gallery__turn gallery__turn--right"></button>
             </div>
+            <button
+              id="prev"
+              class="gallery__turn gallery__turn--left"
+            ></button>
+            <button
+              id="next"
+              class="gallery__turn gallery__turn--right"
+            ></button>
           </div>
           <p class="manufactures__descrption">
             Lorem ipsum dolor sit amet consectetur. Non eget blandit in euismod
@@ -473,5 +514,6 @@
     </footer>
     <script src="./assets/js/header.js"></script>
     <script src="./assets/js/faq.js"></script>
+    <script src="./assets/js/gallery.js"></script>
   </body>
 </html>

@@ -1,12 +1,12 @@
 .gallery {
-  position: relative;
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 
 .gallery__list {
   display: flex;
-  justify-content: center;
   gap: 16px;
-  overflow: hidden;
 }
 
 .gallery__item {
